@@ -1,0 +1,6 @@
+{
+  "name": "Gravitas",
+  "description": "Procedural sci-fi superintelligence manifest and name generator inspired by Iain M. Banks' Culture Minds and Rain World Iterators, featuring deterministic seeding and optional local LLM lore generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

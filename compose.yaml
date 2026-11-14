@@ -1,0 +1,13 @@
+services:
+  qng:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: qng:latest
+    container_name: qng
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    # Optional: mount a custom lexicon without rebuilding the image
+    # volumes:
+    #   - ./public/lexicon.yaml:/srv/lexicon.yaml:ro
